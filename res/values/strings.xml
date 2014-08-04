@@ -2,6 +2,8 @@
 <resources>
 
     <string name="hello">Hello World, BarCodeTestActivity!</string>
-    <string name="app_name">BarCodeTest</string>
+    <string name="app_name">QRCodeWithRSA</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="generate_qr_code">生成二维码</string>
 
 </resources>

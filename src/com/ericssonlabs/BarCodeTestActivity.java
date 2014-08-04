@@ -100,9 +100,11 @@ public class BarCodeTestActivity extends Activity {
 		if (resultCode == RESULT_OK) {
 			Bundle bundle = data.getExtras();
 			String scanResult = bundle.getString("result");
+			String decodedContent = scanResult;
 			try {
-				String decodedContent = RSAUtils.decryptByPrivateKey(
-						scanResult, priKey);
+				// 进行RSA解密
+				// String decodedContent = RSAUtils.decryptByPrivateKey(
+				// scanResult, priKey);
 				resultTextView.setText(decodedContent);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
