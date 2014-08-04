@@ -32,7 +32,7 @@ import com.zxing.view.ViewfinderView;
 /**
  * Initial the camera
  * 
- * @author Ryan.Tang
+ * @author William Generalist
  */
 public class CaptureActivity extends Activity implements Callback {
 
