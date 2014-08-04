@@ -20,6 +20,10 @@ import com.utils.RSAUtils;
 import com.zxing.activity.CaptureActivity;
 import com.zxing.encoding.EncodingHandler;
 
+/**
+ * @author William Generalist
+ * 
+ */
 public class BarCodeTestActivity extends Activity {
 	/** Called when the activity is first created. */
 	private TextView resultTextView;

@@ -5,5 +5,8 @@
     <string name="app_name">QRCodeWithRSA</string>
     <string name="scan_qr_code">扫描二维码</string>
     <string name="generate_qr_code">生成二维码</string>
+    <string name="scan_result">扫描结果：</string>
+    <string name="input_text">输入文本信息</string>
+    <string name="cancel">取消</string>
 
 </resources>

@@ -10,47 +10,47 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Open camera" />
-    
-    <LinearLayout 
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
+        android:text="@string/scan_qr_code" />
+
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-        
-        <TextView 
-       	android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:text="Scan result：" />
-        
-        <TextView 
-        android:id="@+id/tv_scan_result"
-       	android:layout_width="fill_parent"
-       	android:textSize="18sp"
-       	android:textColor="@android:color/black"
-        android:layout_height="wrap_content" />
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_result"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_scan_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
     </LinearLayout>
-    
-    <EditText 
+
+    <EditText
         android:id="@+id/et_qr_string"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:hint="Input the text"/>
-    
+        android:hint="@string/input_text" />
+
     <Button
         android:id="@+id/btn_add_qrcode"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Generate QRcode" />
-    
-    <ImageView 
+        android:text="@string/generate_qr_code" />
+
+    <ImageView
         android:id="@+id/iv_qr_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>
